@@ -9,7 +9,9 @@ The dataset used for this project is the World Bank Education Statistics Dataset
 
 ## Design decisions made: 
 I designed the application to have two sections: Configuration and Display. In the configuration section, the user chooses the metric that he is interested in and the year for which they want to see the visualization. Additionally, the user can also choose whether to display a legend of the countries in the visualization. In this display section, the created visualization is displayed, and the user can interact with it. 
+
 I wanted the users of this application to be able to easily compare statistics for men and women visually. For this purpose, I decided to plot the metrics for different countries as an interactive scatter plot with the axes representing the two genders. Users can zoom and pan the graph to their liking and hover on the different points in the scatter to see relevant information associated with that datapoint. The size of a country’s scatter point increases with increase in the gender disparity of the selected metric in that country. 
+
 I wanted the users to be able to easily adjust the year in question and therefore, I added a slider to select the year. In this way, a user can quickly change the year to see how the scatter changes over time. I used a drop-down menu to display the supported education statistics that the user can choose from. For toggling the legend, I used a checkbox. 
 
 ## Overview of development: 
